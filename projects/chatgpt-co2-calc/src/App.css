@@ -1,0 +1,62 @@
+.main {
+    padding: 35px 45px 35px 325px;
+    font-family: 'Roboto Mono';
+    font-weight: 400;
+}
+
+.main .question {
+    font-style: italic;
+    font-size: 24px;
+    line-height: 100.7%;
+    letter-spacing: -1.5px;
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: 700;
+}
+
+.main .desc {
+    font-family: 'Roboto';
+    padding-top: 6px;
+    font-size: 18px;
+    line-height: 131%;
+    color: #000000;
+    margin-bottom: 5px;
+    min-height: 100px;
+}
+
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 216px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding: 29px 32px;
+  background: linear-gradient(180deg, rgba(0, 255, 255, 0.6) 0%, rgba(126, 129, 129, 0.6) 53.65%, rgba(255, 0, 0, 0.6) 100%);
+
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 700;
+}
+
+.sidenav .title {
+    font-size: 32px;
+    line-height: 116.7%;
+    letter-spacing: -1.5px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.sidenav .members {
+    padding-top: 16px;
+    font-size: 14px;
+    line-height: 160%;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.sidenav .desc {
+    padding-top: 50px;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.17px;
+    color: rgba(0, 0, 0, 0.6);
+}

@@ -1,0 +1,47 @@
+.calc-container {
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: #000000;
+}
+
+.step1-header {
+    margin-bottom: 23px;
+    font-weight: 500;
+}
+
+.step1-header .ex {
+    font-style: italic;
+    font-weight: 200;
+    margin-top: 4px;
+}
+
+.step1-side {
+    padding: 0 19px 0 19px;
+}
+
+.step1-side .status {
+    height: 91px;
+    margin-bottom: 9px;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 157%;
+    color: rgba(0, 0, 0, 0.87);
+    white-space: pre-line;
+}
+
+.step-divider {
+    margin-top: 32px;
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.step1-side .btn-submit {
+    width: 149px;
+    height: 42px;
+}
+
+.step2-header {
+    margin-top: 18px;
+}
+
